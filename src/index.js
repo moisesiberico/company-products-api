@@ -1,5 +1,8 @@
 import app from "./app";
-import './database';
+// Importar base de datos MongoDB
+import './database/mongodb/db_mongodb';
+// Importar base de datos MySQL
+
 
 app.listen(app.get("port"));
 

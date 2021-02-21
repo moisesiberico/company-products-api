@@ -1,8 +1,8 @@
-import User from "../models/User";
-import Role from "../models/Role";
+import User from "../models/mongodb/User";
+import Role from "../models/mongodb/Role";
 
 import jwt from "jsonwebtoken";
-import config from "../config";
+import config from "../database/mongodb/config";
 
 export const signUp = async (req, res) => {
   try {

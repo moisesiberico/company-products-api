@@ -1,5 +1,5 @@
-import User from "../models/User";
-import Role from "../models/Role";
+import User from "../models/mongodb/User";
+import Role from "../models/mongodb/Role";
 
 export const createUser = async (req, res) => {
   try {
